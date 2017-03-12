@@ -40,6 +40,7 @@ class Welcome extends Application
 		}
 		$this->data['display_tasks'] = $display_tasks;
 
+                //$this->alert("hello", "danger");
 		$this->render();
 
 	}
